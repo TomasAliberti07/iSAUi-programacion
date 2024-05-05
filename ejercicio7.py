@@ -18,5 +18,5 @@ while True:
      elif intento > numero_aleatorio:
           print("El numero es muy alto") 
      else:
-          print("Felicidades adivinaste el numero hasta luego")
+          print("Felicidades adivinaste el numero hasta luego:)")
           break
