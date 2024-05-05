@@ -10,6 +10,7 @@ elif empezar=="no":
     print("Hasta la proxima:)")
 else: 
     print("Respuesta no valida")
+    volver=input("Por favor responda si o no:").lower()
 while True:
      intento= int(input("Ingrese un numero: "))
      intentos= intentos + 1
