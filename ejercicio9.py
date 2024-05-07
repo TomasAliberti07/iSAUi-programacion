@@ -5,7 +5,7 @@
 def calculo(numero):
     resultado = 1
     for i in range(1, numero + 1):
-        resultado *= i
+        resultado = resultado * i
     return resultado
 
 numero=int (input("Ingrese el numero que desea calcular:"))
