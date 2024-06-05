@@ -1,3 +1,4 @@
+
 #Contar elementos: Escribe una función que reciba una lista y un valor, y devuelva
 #cuántas veces aparece ese valor en la lista.
 lista=[1,1,1,1,1,2,2,2,3,3,4,4,5,6,6,7,8,9,9,9]#Creo una lista con sus valores

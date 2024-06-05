@@ -6,7 +6,6 @@ def sacar_prom(lista):#Definimos la funcion sacar promedio
         suma += num#Sumo todos los numeros de la lista
     promedio = suma / len(lista)#Saco el promedio con la suma y la longitud de la lista
     return promedio#Devuelve el promedio
-
 numeros = input("Ingrese los números de la lista separados por comas: ")#El usuario ingresa los datos numericos
 lista_numeros = [float(nume) for nume in numeros.split(",")]#Creo la lista vacia con valores float y que un for recorra la lista y por cada numero ponga una coma
 promedio = sacar_prom(lista_numeros)#Guardo la funcion en promedio
